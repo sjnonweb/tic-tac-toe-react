@@ -41,10 +41,16 @@ ol, ul {
 }
 
 .game {
-  display: flex;
-  flex-direction: row;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.game-board {
+  display: inline-block;
 }
